@@ -26,4 +26,4 @@ Install nodeJS and then go to the folder directory in your terminal and type,
 # Starting the server
 
 To start the server, go to the folder directory in your terminal and type,
-`make serve`.
+`make serve`. Then go to `localhost:8080` to view the project.
