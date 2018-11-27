@@ -6,7 +6,7 @@ const index = require('./routes/index');
 const tasks = require('./routes/tasks');
 
 const app = express();
-let port = process.env.PORT || 3000
+let port = process.env.PORT || 8080;
 
 // Setup View Engine
 app.set('views', path.join(__dirname +  '/views'));
