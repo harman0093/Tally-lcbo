@@ -1,0 +1,18 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "adminlte": "^2.4.1",
+    "angular": "^1.6.4",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "fontawesome": "^4.7.2",
+    "ngGeolocation": "0.0.7",
+    "request": "^2.88.0"
+  }
+}
