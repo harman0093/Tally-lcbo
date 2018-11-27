@@ -18,12 +18,12 @@ This application was developed using AngularJS 1.6, NodeJS 11.2, and Express 4.1
 
 This was the first time I used Express. I thought that I would take this opportunity to learn a new framework.
 
-#Starting the app
+# Starting the app
 
 Install nodeJS and then go to the folder directory in your terminal and type,
 `make install`.
 
-#Starting the server
+# Starting the server
 
 To start the server, go to the folder directory in your terminal and type,
 `make serve`.
