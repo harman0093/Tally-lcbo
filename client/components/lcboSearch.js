@@ -28,6 +28,8 @@ angular.module('angular-app')
     }
 
     $ctrl.searchProduct = function(product) {
+      $ctrl.storeInfo = '';
+
       if (!product) {
         return alert('enter a valid product');
       }
@@ -46,6 +48,7 @@ angular.module('angular-app')
         } else {
           $ctrl.productInfo = res.data;
           $ctrl.productInfo.displayTable = true;
+          $ctrl.productInfo.err = '';
         }
       });
     }
